@@ -16,8 +16,7 @@ public class myAppTester {
 	  System.out.print("Reverse of the input number is:");
 	  reverseMethod(n);
 	  System.out.println();
-
-	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
+	  myTestMethod(n);
 
 	}
 	
@@ -33,15 +32,13 @@ public class myAppTester {
 	       }
 	   }
 
-
-	   /* 
-	       add your test method in this space then remove the block comment symbols
-	       public static void myTestMethod(...){
-
-            
+	       public static void myTestMethod(int num){
+	    	   System.out.println("Input number is" + num);
+            for(int i = 0; i <= num; i++) {
+            	System.out.println(i + "\t");
+            }
 
 		   }
 	 
-	   */
 
 }
